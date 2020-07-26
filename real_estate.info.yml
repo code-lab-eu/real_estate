@@ -1,0 +1,10 @@
+name: Real Estate profile
+type: profile
+description: 'Drupal distribution for real estate websites.'
+core_version_requirement: '^9'
+install:
+  - block_content
+  - ckeditor
+  - editor
+themes:
+  - bootstrap_barrio
