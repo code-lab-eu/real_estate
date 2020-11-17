@@ -11,10 +11,11 @@
     ],
     "require": {
         "php": "^7.3",
-        "drupal/core": "~9"
+        "composer/installers": "^1.9",
+        "drupal/core": "~9",
+        "drupal/core-composer-scaffold": "^9.0"
     },
     "require-dev": {
-        "drupal/core-dev": "~9",
         "drush/drush": "~10",
         "zaporylie/composer-drupal-optimizations": "~1"
     },
@@ -26,22 +27,10 @@
             "php": "7.3.24"
         }
     },
-    "autoload": {
-        "files": ["load.environment.php"]
-    },
-    "scripts": {
-        "post-drupal-scaffold-cmd": [
-            "./vendor/bin/robo environment:setup-basic-auth"
-        ]
-    },
     "repositories": [
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/LoversOfBehat/ScreenshotExtension.git"
         }
     ],
     "extra": {
