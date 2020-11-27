@@ -2,9 +2,11 @@ name: Real Estate profile
 type: profile
 description: 'Drupal distribution for real estate websites.'
 core_version_requirement: '^9'
+distribution:
+  name: Real Estate Platform
 install:
-  - drupal:block_content
-  - drupal:ckeditor
-  - drupal:editor
+  - block_content
+  - ckeditor
+  - editor
 themes:
-  - bootstrap_barrio:bootstrap_barrio
+  - bootstrap_barrio
