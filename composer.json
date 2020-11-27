@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": "^7.3",
+        "drupal/bootstrap_barrio": "^5.1",
         "drupal/core": "~9"
     },
     "require-dev": {
