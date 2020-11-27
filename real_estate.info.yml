@@ -2,6 +2,8 @@ name: Real Estate profile
 type: profile
 description: 'Drupal distribution for real estate websites.'
 core_version_requirement: '^9'
+distribution:
+  name: Real Estate Platform
 install:
   - block_content
   - ckeditor
